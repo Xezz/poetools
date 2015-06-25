@@ -52,4 +52,5 @@ angular.module('myApp.expCalc', ['ngRoute'])
             }
             $scope.levelTableData = result;
         };
+        $scope.getLevelRanges();
     }]);
