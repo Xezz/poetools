@@ -1,15 +1,15 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('myApp.expCalc', ['ngRoute'])
 
     .config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/view1', {
-            templateUrl: 'view1/view1.html',
-            controller: 'View1Ctrl'
+        $routeProvider.when('/expCalc', {
+            templateUrl: 'expCalc/expCalc.html',
+            controller: 'ExpCalcCtrl'
         });
     }])
 
-    .controller('View1Ctrl', ['$scope', function ($scope) {
+    .controller('ExpCalcCtrl', ['$scope', function ($scope) {
         $scope.playerLevel = 1;
         $scope.monsterLevelBoundary = 3;
         $scope.levelTableData = [];
