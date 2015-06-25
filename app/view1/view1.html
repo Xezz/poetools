@@ -1,1 +1,9 @@
-<p>This is the partial for view 1.</p>
+<div>
+    Experience Calculator<br/>
+    <input ng-model="playerLevel" type="number" ng-change="getEffectiveLevel()"/><br/>
+    Effective Monsterlevel: {{ monsterLevelBoundary }}<br/>
+    100% Experience: {{ fullExpMinLevel() }} to {{ fullExpMaxLevel() }}
+    <div ng-repeat="value in levelTableData">
+        {{value.level}}: {{value.expPercentage}}<br/>
+    </div>
+</div>

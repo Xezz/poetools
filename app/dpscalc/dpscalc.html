@@ -1,0 +1,47 @@
+<div>
+    Initial DPS calc page <br/>
+
+    <form name="calcForm">
+        <div class="row">
+            <span class="col-xs-1">Quality</span>
+            <input name="quality" ng-model="lowerStats.quality" type="number" class="col-xs-1">
+        </div>
+        <div class="row">
+            <span class="col-xs-1">Physical Damage min</span>
+            <input name="minDamage" ng-model="upperStats.minPhysDamage" type="number" class="col-xs-1">
+            <span class="col-xs-1">-</span>
+            <input name="maxDamage" ng-model="upperStats.maxPhysDamage" type="number" class="col-xs-1">
+            <span class="col-xs-1">max</span>
+        </div>
+        <div class="row">
+            <span class="col-xs-1">Critical Strike Chance</span>
+            <input name="attackSpeed" ng-model="upperStats.critChance" type="number" step="any" class="col-xs-1">
+        </div>
+        <div class="row"><span class="col-xs-1">Attacks per Second</span>
+            <input name="attackSpeed" ng-model="upperStats.attackSpeed" type="number" step="any" class="col-xs-1">
+        </div>
+        <div class="row">
+            <span class="col-xs-1">Inc. % Physical Damage</span>
+            <input name="enhancedDamage" ng-model="lowerStats.enhancedDamage" type="number" class="col-xs-1">
+        </div>
+        <div class="row">
+            <span class="col-xs-1">Adds min Damage</span>
+            <input name="extraDamageMin" ng-model="lowerStats.minPhysDamage" type="number" class="col-xs-1">
+            <span class="col-xs-1">-</span>
+            <input name="extraDamageMax" ng-model="lowerStats.maxPhysDamage" type="number" class="col-xs-1">
+            <span class="col-xs-1">max Damage</span>
+        </div>
+        <button type="button" class="btn btn-primary" ng-click="calculateDamage()">Calc</button>
+        <div class="row">
+            <select ng-options="item.name for item in categories" ng-model="selectedCategory"
+                    ng-change="updateCategorySelection()" class="col-xs-1"></select>
+            <select ng-options="items.name for items in selectedCategory.data" ng-model="selectedSubCategory"
+                    ng-change="calculateDamage()" class="col-xs-1"></select>
+        </div>
+    </form>
+    <div>{{calculatedStats.dps}}</div>
+    <div>{{selectedCategory.name}}</div>
+    <div>crafted dps: {{calculatedStats.craftedDps}}</div>
+    <textarea ng-model="unparsedText">
+    </textarea>
+</div>
