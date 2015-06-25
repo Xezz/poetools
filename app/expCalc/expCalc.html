@@ -3,7 +3,10 @@
     <input ng-model="playerLevel" type="number" ng-change="getEffectiveLevel()"/><br/>
     Effective Monsterlevel: {{ monsterLevelBoundary }}<br/>
     100% Experience: {{ fullExpMinLevel() }} to {{ fullExpMaxLevel() }}
-    <div ng-repeat="value in levelTableData">
-        {{value.level}}: {{value.expPercentage}}<br/>
-    </div>
+    <table ng-repeat="value in levelTableData">
+        <tr>
+            <td>{{value.level}}</td>
+            <td>{{value.expPercentage}}</td>
+        </tr>
+    </table>
 </div>
