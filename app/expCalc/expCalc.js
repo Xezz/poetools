@@ -113,6 +113,9 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
         $scope.showTooltip = function (zoneLevel) {
             var tempResult = "<ul>";
             for (var idx = 0; idx < $scope.zoneData.length; idx++) {
+                if (zoneLevel === $scope.zoneData[idx].map) {
+                    tempResult += "<li>" + ($scope.zoneData[idx].zone) + "</li>";
+                }
                 if (zoneLevel === $scope.zoneData[idx].merciless) {
                     tempResult += "<li>" + ($scope.zoneData[idx].zone + " (M)") + "</li>";
                 }
@@ -380,6 +383,391 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
                 "levels": "40 / 57 / 70"
             }
         ];
+
+        var mapLevels = [
+            {
+                "zone": "Crypt Map(Crypt Map)",
+                "level": 68
+            },
+            {
+                "zone": "The Coward's Trial",
+                "level": 68
+            },
+            {
+                "zone": "Dungeon Map(Dungeon Map)",
+                "level": 68
+            },
+            {
+                "zone": "Grotto Map(Grotto Map)",
+                "level": 68
+            },
+            {
+                "zone": "Dunes Map(Dunes Map)",
+                "level": 68
+            },
+            {
+                "zone": "Pit Map(Pit Map)",
+                "level": 68
+            },
+            {
+                "zone": "Tropical Island Map(Tropical Island Map)",
+                "level": 68
+            },
+            {
+                "zone": "Untainted Paradise",
+                "level": 68
+            },
+            {
+                "zone": "Desert Map(Desert Map)",
+                "level": 68
+            },
+            {
+                "zone": "Sewer Map(Sewer Map)",
+                "level": 69
+            },
+            {
+                "zone": "Aqueduct Map(Aqueduct Map)",
+                "level": 69
+            },
+            {
+                "zone": "Thicket Map(Thicket Map)",
+                "level": 69
+            },
+            {
+                "zone": "Mountain Ledge Map(Mountain Ledge Map)",
+                "level": 69
+            },
+            {
+                "zone": "Maelström of Chaos",
+                "level": 69
+            },
+            {
+                "zone": "Cemetery Map(Cemetery Map)",
+                "level": 69
+            },
+            {
+                "zone": "Arcade Map(Arcade Map)",
+                "level": 69
+            },
+            {
+                "zone": "Wharf Map(Wharf Map)",
+                "level": 69
+            },
+            {
+                "zone": "Ghetto Map(Ghetto Map)",
+                "level": 70
+            },
+            {
+                "zone": "Spider Lair Map(Spider Lair Map)",
+                "level": 70
+            },
+            {
+                "zone": "Vaal Pyramid Map(Vaal Pyramid Map)",
+                "level": 70
+            },
+            {
+                "zone": "Vaults of Atziri",
+                "level": 70
+            },
+            {
+                "zone": "Reef Map(Reef Map)",
+                "level": 70
+            },
+            {
+                "zone": "Mao Kun",
+                "level": 70
+            },
+            {
+                "zone": "Quarry Map(Quarry Map)",
+                "level": 70
+            },
+            {
+                "zone": "Mud Geyser Map(Mud Geyser Map)",
+                "level": 70
+            },
+            {
+                "zone": "Museum Map(Museum Map)",
+                "level": 70
+            },
+            {
+                "zone": "Arena Map(Arena Map)",
+                "level": 71
+            },
+            {
+                "zone": "Overgrown Shrine Map(Overgrown Shrine Map)",
+                "level": 71
+            },
+            {
+                "zone": "Acton's Nightmare",
+                "level": 71
+            },
+            {
+                "zone": "Tunnel Map(Tunnel Map)",
+                "level": 71
+            },
+            {
+                "zone": "Shore Map(Shore Map)",
+                "level": 71
+            },
+            {
+                "zone": "Spider Forest Map(Spider Forest Map)",
+                "level": 71
+            },
+            {
+                "zone": "Promenade Map(Promenade Map)",
+                "level": 71
+            },
+            {
+                "zone": "Hall of Grandmasters",
+                "level": 71
+            },
+            {
+                "zone": "Underground Sea Map(Underground Sea Map)",
+                "level": 72
+            },
+            {
+                "zone": "Pier Map(Pier Map)",
+                "level": 72
+            },
+            {
+                "zone": "Bog Map(Bog Map)",
+                "level": 72
+            },
+            {
+                "zone": "Graveyard Map(Graveyard Map)",
+                "level": 72
+            },
+            {
+                "zone": "Coves Map(Coves Map)",
+                "level": 72
+            },
+            {
+                "zone": "Villa Map(Villa Map)",
+                "level": 72
+            },
+            {
+                "zone": "Temple Map(Temple Map)",
+                "level": 73
+            },
+            {
+                "zone": "Poorjoy's Asylum",
+                "level": 73
+            },
+            {
+                "zone": "Arachnid Nest Map(Arachnid Nest Map)",
+                "level": 73
+            },
+            {
+                "zone": "Strand Map(Strand Map)",
+                "level": 73
+            },
+            {
+                "zone": "Whakawairua Tuahu",
+                "level": 73
+            },
+            {
+                "zone": "Dry Woods Map(Dry Woods Map)",
+                "level": 73
+            },
+            {
+                "zone": "Colonnade Map(Colonnade Map)",
+                "level": 73
+            },
+            {
+                "zone": "Blackguard Salute",
+                "level": 73
+            },
+            {
+                "zone": "Catacomb Map(Catacomb Map)",
+                "level": 73
+            },
+            {
+                "zone": "Convent of the Twins' Flame",
+                "level": 73
+            },
+            {
+                "zone": "Torture Chamber Map(Torture Chamber Map)",
+                "level": 74
+            },
+            {
+                "zone": "Oba's Cursed Trove",
+                "level": 74
+            },
+            {
+                "zone": "Waste Pool Map(Waste Pool Map)",
+                "level": 74
+            },
+            {
+                "zone": "Mine Map(Mine Map)",
+                "level": 74
+            },
+            {
+                "zone": "Jungle Valley Map(Jungle Valley Map)",
+                "level": 74
+            },
+            {
+                "zone": "Labyrinth Map(Labyrinth Map)",
+                "level": 74
+            },
+            {
+                "zone": "Cells Map(Cells Map)",
+                "level": 75
+            },
+            {
+                "zone": "Canyon Map(Canyon Map)",
+                "level": 75
+            },
+            {
+                "zone": "Dark Forest Map(Dark Forest Map)",
+                "level": 75
+            },
+            {
+                "zone": "Dry Peninsula Map(Dry Peninsula Map)",
+                "level": 75
+            },
+            {
+                "zone": "Orchard Map(Orchard Map)",
+                "level": 75
+            },
+            {
+                "zone": "Underground River Map(Underground River Map)",
+                "level": 76
+            },
+            {
+                "zone": "Arid Lake Map(Arid Lake Map)",
+                "level": 76
+            },
+            {
+                "zone": "Gorge Map(Gorge Map)",
+                "level": 76
+            },
+            {
+                "zone": "Residence Map(Residence Map)",
+                "level": 76
+            },
+            {
+                "zone": "Necropolis Map(Necropolis Map)",
+                "level": 77
+            },
+            {
+                "zone": "Death and Taxes",
+                "level": 77
+            },
+            {
+                "zone": "Plateau Map(Plateau Map)",
+                "level": 77
+            },
+            {
+                "zone": "Bazaar Map(Bazaar Map)",
+                "level": 77
+            },
+            {
+                "zone": "Abyss Map(Abyss Map)",
+                "level": 77
+            },
+            {
+                "zone": "Crematorium Map(Crematorium Map)",
+                "level": 78
+            },
+            {
+                "zone": "Precinct Map(Precinct Map)",
+                "level": 78
+            },
+            {
+                "zone": "Academy Map(Academy Map)",
+                "level": 78
+            },
+            {
+                "zone": "Springs Map(Springs Map)",
+                "level": 78
+            },
+            {
+                "zone": "Shipyard Map(Shipyard Map)",
+                "level": 79
+            },
+            {
+                "zone": "Overgrown Ruin Map(Overgrown Ruin Map)",
+                "level": 79
+            },
+            {
+                "zone": "Village Ruin Map(Village Ruin Map)",
+                "level": 79
+            },
+            {
+                "zone": "Arsenal Map(Arsenal Map)",
+                "level": 79
+            },
+            {
+                "zone": "Wasteland Map(Wasteland Map)",
+                "level": 80
+            },
+            {
+                "zone": "Courtyard Map(Courtyard Map)",
+                "level": 80
+            },
+            {
+                "zone": "Excavation Map(Excavation Map)",
+                "level": 80
+            },
+            {
+                "zone": "Waterways Map(Waterways Map)",
+                "level": 80
+            },
+            {
+                "zone": "Palace Map(Palace Map)",
+                "level": 81
+            },
+            {
+                "zone": "Shrine Map(Shrine Map)",
+                "level": 81
+            },
+            {
+                "zone": "Wraeclast Pantheon",
+                "level": 81
+            },
+            {
+                "zone": "Maze Map(Maze Map)",
+                "level": 81
+            },
+            {
+                "zone": "Olmec's Sanctum",
+                "level": 81
+            },
+            {
+                "zone": "Vaal Temple Map(Vaal Temple Map)",
+                "level": 81
+            },
+            {
+                "zone": "Core Map(Core Map)",
+                "level": 82
+            },
+            {
+                "zone": "Volcano Map(Volcano Map)",
+                "level": 82
+            },
+            {
+                "zone": "Colosseum Map(Colosseum Map)",
+                "level": 82
+            },
+            {
+                "zone": "The Alluring Abyss(The Alluring Abyss)",
+                "level": 80
+            },
+            {
+                "zone": "The Apex of Sacrifice(The Apex of Sacrifice)",
+                "level": 70
+            }
+        ];
+        var parseMapData = function () {
+            var result = [];
+            for (var idx = 0; idx < mapLevels.length; idx++) {
+                result.push({
+                    zone: mapLevels[idx].zone.split('(')[0],
+                    map: mapLevels[idx].level
+                })
+            }
+            return result;
+        };
         $scope.zoneData = (function () {
             var result = [];
             for (var idx = 0; idx < zoneToLevel.length; idx++) {
@@ -397,7 +785,7 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
                     })
                 }
             }
-            return result;
+            return result.concat(parseMapData());
         })();
     }])
 ;
