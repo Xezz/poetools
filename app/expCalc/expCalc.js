@@ -39,8 +39,8 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
             var maxMonsterLevel = playerLevel + Math.abs(playerLevel - zoneLevel);
             var result = Math.pow(maxMonsterLevel / (maxMonsterLevel + Math.pow(calcPlayerLevelToEffectiveLevel(playerLevel, zoneLevel), 2.5)), 1.5) * 100;
             result = result - result % 1;
-            if (result < 2) {
-                result = 2;
+            if (result < 1) {
+                result = 1;
             }
             return result;
         };
