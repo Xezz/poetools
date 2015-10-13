@@ -78,6 +78,9 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
                 minDif -= maxDif - max;
                 maxDif = max;
             }
+            if (maxDif > specialMap.endLevel) {
+                maxDif = specialMap.endLevel;
+            }
             for (var zoneLevel = minDif; zoneLevel <= maxDif; zoneLevel++) {
                 result.push({
                     level: zoneLevel,
