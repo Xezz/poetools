@@ -3,50 +3,51 @@
     <div class="col-md-6">
         Effective Monsterlevel: {{ monsterLevelBoundary }}<br/>
         100% Experience: {{ fullExpMinLevel() }} to {{ fullExpMaxLevel() }}
-    </div>
-    <div class="col-md-6"><span class="btn btn-success" ng-click="addPartyMember()">Add Party Member</span></div>
-</div>
-<div class="col-md-6">
-    <table class="table">
-        <thead>
-        <tr>
-            <th>Zonelevel</th>
-            <th>Gained Experience</th>
-        </tr>
-        </thead>
-        <tr ng-repeat="value in levelTableData" tooltip-html-unsafe="{{showTooltip(value.level)}}">
-            <td>{{value.level}}</td>
-            <td>{{value.expPercentage}} %</td>
-        </tr>
-    </table>
-</div>
-<div class="col-md-6">
 
-    <table class="table">
-        <thead>
-        <tr>
-            <th>Player</th>
-            <th>Level</th>
-            <th>Exp. Share</th>
-        </tr>
-        </thead>
-        <tr>
-            <td>
-                You
-            </td>
-            <td><input ng-model="player.playerLevel" type="number" ng-change="getEffectiveLevel()"/></td>
-            <td>{{getPercentExp(player)}} %</td>
-            <td></td>
-        </tr>
-        <tr ng-repeat="member in partyMembers">
-            <td>Partymember {{ $index + 1}}</td>
-            <td>
-                <input ng-model="member.playerLevel" type="number" ng-change="calcPartyShare()"/>
-            </td>
-            <td>
-                {{getPercentExp(member)}}
-            </td>
-            <td><span class="btn btn-danger" ng-click="removePartyMember($index)">Remove</span></td>
-        </tr>
-    </table>
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Zonelevel</th>
+                    <th>Gained Experience</th>
+                </tr>
+                </thead>
+                <tr ng-repeat="value in levelTableData" tooltip-html-unsafe="{{showTooltip(value.level)}}">
+                    <td>{{value.level}}</td>
+                    <td>{{value.expPercentage}} %</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="col-md-12"><span class="btn btn-success" ng-click="addPartyMember()">Add Party Member</span></div>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Player</th>
+                <th>Level</th>
+                <th>Exp. Share</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>
+                    You
+                </td>
+                <td><input ng-model="player.playerLevel" type="number" ng-change="getEffectiveLevel()"/></td>
+                <td>{{getPercentExp(player)}} %</td>
+                <td></td>
+            </tr>
+            <tr ng-repeat="member in partyMembers">
+                <td>Partymember {{ $index + 1}}</td>
+                <td>
+                    <input ng-model="member.playerLevel" type="number" ng-change="calcPartyShare()"/>
+                </td>
+                <td>
+                    {{getPercentExp(member)}}
+                </td>
+                <td><span class="btn btn-danger" ng-click="removePartyMember($index)">Remove</span></td>
+            </tr>
+        </table>
+    </div>
 </div>
