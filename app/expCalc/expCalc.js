@@ -27,7 +27,15 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
         $scope.fullExpMaxLevel = function () {
             return $scope.player.playerLevel + $scope.monsterLevelBoundary;
         };
+        var specialMap = {
+            startLevel: 77,
+            endLevel: 82,
+            77: 76.9, 78: 77.7, 79: 78.4, 80: 79, 81: 79.5, 82: 79.9
+        };
         var calculateExpPenalty = function (playerLevel, zoneLevel) {
+            if (zoneLevel >= specialMap.startLevel) {
+                zoneLevel = specialMap[zoneLevel];
+            }
             var maxMonsterLevel = playerLevel + Math.abs(playerLevel - zoneLevel);
             var result = Math.pow(maxMonsterLevel / (maxMonsterLevel + Math.pow(calcPlayerLevelToEffectiveLevel(playerLevel, zoneLevel), 2.5)), 1.5) * 100;
             result = result - result % 1;
@@ -650,111 +658,138 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
             },
             {
                 "zone": "Necropolis Map(Necropolis Map)",
-                "level": 77
+                "level": 77,
+                "expLevel": 76.9
             },
             {
                 "zone": "Death and Taxes",
-                "level": 77
+                "level": 77,
+                "expLevel": 76.9
             },
             {
                 "zone": "Plateau Map(Plateau Map)",
-                "level": 77
+                "level": 77,
+                "expLevel": 76.9
             },
             {
                 "zone": "Bazaar Map(Bazaar Map)",
-                "level": 77
+                "level": 77,
+                "expLevel": 76.9
             },
             {
                 "zone": "Abyss Map(Abyss Map)",
-                "level": 77
+                "level": 77,
+                "expLevel": 76.9
             },
             {
                 "zone": "Crematorium Map(Crematorium Map)",
-                "level": 78
+                "level": 78,
+                "expLevel": 77.7
             },
             {
                 "zone": "Precinct Map(Precinct Map)",
-                "level": 78
+                "level": 78,
+                "expLevel": 77.7
             },
             {
                 "zone": "Academy Map(Academy Map)",
-                "level": 78
+                "level": 78,
+                "expLevel": 77.7
             },
             {
                 "zone": "Springs Map(Springs Map)",
-                "level": 78
+                "level": 78,
+                "expLevel": 77.7
             },
             {
                 "zone": "Shipyard Map(Shipyard Map)",
-                "level": 79
+                "level": 79,
+                "expLevel": 78.4
             },
             {
                 "zone": "Overgrown Ruin Map(Overgrown Ruin Map)",
-                "level": 79
+                "level": 79,
+                "expLevel": 78.4
             },
             {
                 "zone": "Village Ruin Map(Village Ruin Map)",
-                "level": 79
+                "level": 79,
+                "expLevel": 78.4
             },
             {
                 "zone": "Arsenal Map(Arsenal Map)",
-                "level": 79
+                "level": 79,
+                "expLevel": 78.4
             },
             {
                 "zone": "Wasteland Map(Wasteland Map)",
-                "level": 80
+                "level": 80,
+                "expLevel": 79
             },
             {
                 "zone": "Courtyard Map(Courtyard Map)",
-                "level": 80
+                "level": 80,
+                "expLevel": 79
             },
             {
                 "zone": "Excavation Map(Excavation Map)",
-                "level": 80
+                "level": 80,
+                "expLevel": 79
             },
             {
                 "zone": "Waterways Map(Waterways Map)",
-                "level": 80
+                "level": 80,
+                "expLevel": 79
             },
             {
                 "zone": "Palace Map(Palace Map)",
-                "level": 81
+                "level": 81,
+                "expLevel": 79.5
             },
             {
                 "zone": "Shrine Map(Shrine Map)",
-                "level": 81
+                "level": 81,
+                "expLevel": 79.5
             },
             {
                 "zone": "Wraeclast Pantheon",
-                "level": 81
+                "level": 81,
+                "expLevel": 79.5
             },
             {
                 "zone": "Maze Map(Maze Map)",
-                "level": 81
+                "level": 81,
+                "expLevel": 79.5
             },
             {
                 "zone": "Olmec's Sanctum",
-                "level": 81
+                "level": 81,
+                "expLevel": 79.5
             },
             {
                 "zone": "Vaal Temple Map(Vaal Temple Map)",
-                "level": 81
+                "level": 81,
+                "expLevel": 79.5
             },
             {
                 "zone": "Core Map(Core Map)",
-                "level": 82
+                "level": 82,
+                "expLevel": 79.9
             },
             {
                 "zone": "Volcano Map(Volcano Map)",
-                "level": 82
+                "level": 82,
+                "expLevel": 79.9
             },
             {
                 "zone": "Colosseum Map(Colosseum Map)",
-                "level": 82
+                "level": 82,
+                "expLevel": 79.9
             },
             {
                 "zone": "The Alluring Abyss(The Alluring Abyss)",
-                "level": 80
+                "level": 80,
+                "expLevel": 79
             },
             {
                 "zone": "The Apex of Sacrifice(The Apex of Sacrifice)",
