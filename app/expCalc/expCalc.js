@@ -32,6 +32,8 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
             endLevel: 82,
             77: 76.9, 78: 77.7, 79: 78.4, 80: 79, 81: 79.5, 82: 79.9
         };
+        var startMap = 68;
+        var endMap = 82;
         var calculateExpPenalty = function (playerLevel, zoneLevel) {
             if (zoneLevel >= specialMap.startLevel) {
                 zoneLevel = specialMap[zoneLevel];
@@ -84,7 +86,8 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
             for (var zoneLevel = minDif; zoneLevel <= maxDif; zoneLevel++) {
                 result.push({
                     level: zoneLevel,
-                    expPercentage: calculateExpPenalty($scope.player.playerLevel, zoneLevel)
+                    expPercentage: calculateExpPenalty($scope.player.playerLevel, zoneLevel),
+                    mapTier: (zoneLevel >= startMap && zoneLevel <= endMap) ? "(Tier " + (zoneLevel - startMap + 1) + ")" : ""
                 });
             }
             $scope.levelTableData = result;

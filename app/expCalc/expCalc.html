@@ -13,7 +13,7 @@
                 </tr>
                 </thead>
                 <tr ng-repeat="value in levelTableData" tooltip-html-unsafe="{{showTooltip(value.level)}}">
-                    <td>{{value.level}}</td>
+                    <td>{{value.level}} {{value.mapTier}}</td>
                     <td>{{value.expPercentage}} %</td>
                 </tr>
             </table>
