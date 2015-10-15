@@ -37,9 +37,10 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
         var calculateExpPenalty = function (playerLevel, zoneLevel) {
             if (zoneLevel >= specialMap.startLevel) {
                 zoneLevel = specialMap[zoneLevel];
+                console.log(zoneLevel);
             }
             var maxMonsterLevel = playerLevel + Math.abs(playerLevel - zoneLevel);
-            var result = Math.pow(maxMonsterLevel / (maxMonsterLevel + Math.pow(calcPlayerLevelToEffectiveLevel(playerLevel, zoneLevel), 2.5)), 1.5) * 100;
+            var result = Math.pow((5 + playerLevel) / (5 + playerLevel + Math.pow(calcPlayerLevelToEffectiveLevel(playerLevel, zoneLevel), 2.5)), 1.5) * 100;
             result = result.toFixed(2);
             if (result < 1) {
                 result = 1;
