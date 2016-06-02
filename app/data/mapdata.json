@@ -1,0 +1,494 @@
+[
+  {
+    "zone": "Crypt Map(Crypt Map)",
+    "level": 68,
+    "tier": 1
+  },
+  {
+    "zone": "The Coward's Trial",
+    "level": 68,
+    "tier": 1
+  },
+  {
+    "zone": "Dungeon Map(Dungeon Map)",
+    "level": 68,
+    "tier": 1
+  },
+  {
+    "zone": "Grotto Map(Grotto Map)",
+    "level": 68,
+    "tier": 1
+  },
+  {
+    "zone": "Dunes Map(Dunes Map)",
+    "level": 68,
+    "tier": 1
+  },
+  {
+    "zone": "Pit Map(Pit Map)",
+    "level": 68,
+    "tier": 1
+  },
+  {
+    "zone": "Tropical Island Map(Tropical Island Map)",
+    "level": 68,
+    "tier": 1
+  },
+  {
+    "zone": "Untainted Paradise",
+    "level": 68,
+    "tier": 1
+  },
+  {
+    "zone": "Desert Map(Desert Map)",
+    "level": 68,
+    "tier": 1
+  },
+  {
+    "zone": "Sewer Map(Sewer Map)",
+    "level": 69,
+    "tier": 2
+  },
+  {
+    "zone": "Aqueduct Map(Aqueduct Map)",
+    "level": 69,
+    "tier": 2
+  },
+  {
+    "zone": "Thicket Map(Thicket Map)",
+    "level": 69,
+    "tier": 2
+  },
+  {
+    "zone": "Mountain Ledge Map(Mountain Ledge Map)",
+    "level": 69,
+    "tier": 2
+  },
+  {
+    "zone": "Maelström of Chaos",
+    "level": 69,
+    "tier": 2
+  },
+  {
+    "zone": "Cemetery Map(Cemetery Map)",
+    "level": 69,
+    "tier": 2
+  },
+  {
+    "zone": "Arcade Map(Arcade Map)",
+    "level": 69,
+    "tier": 2
+  },
+  {
+    "zone": "Wharf Map(Wharf Map)",
+    "level": 69,
+    "tier": 2
+  },
+  {
+    "zone": "Ghetto Map(Ghetto Map)",
+    "level": 70,
+    "tier": 3
+  },
+  {
+    "zone": "Spider Lair Map(Spider Lair Map)",
+    "level": 70,
+    "tier": 3
+  },
+  {
+    "zone": "Vaal Pyramid Map(Vaal Pyramid Map)",
+    "level": 70,
+    "tier": 3
+  },
+  {
+    "zone": "Vaults of Atziri",
+    "level": 70,
+    "tier": 3
+  },
+  {
+    "zone": "Reef Map(Reef Map)",
+    "level": 70,
+    "tier": 3
+  },
+  {
+    "zone": "Mao Kun",
+    "level": 70,
+    "tier": 3
+  },
+  {
+    "zone": "Quarry Map(Quarry Map)",
+    "level": 70,
+    "tier": 3
+  },
+  {
+    "zone": "Mud Geyser Map(Mud Geyser Map)",
+    "level": 70,
+    "tier": 3
+  },
+  {
+    "zone": "Museum Map(Museum Map)",
+    "level": 70,
+    "tier": 3
+  },
+  {
+    "zone": "Arena Map(Arena Map)",
+    "level": 71,
+    "tier": 4
+  },
+  {
+    "zone": "Overgrown Shrine Map(Overgrown Shrine Map)",
+    "level": 71,
+    "tier": 4
+  },
+  {
+    "zone": "Acton's Nightmare",
+    "level": 71,
+    "tier": 4
+  },
+  {
+    "zone": "Tunnel Map(Tunnel Map)",
+    "level": 71,
+    "tier": 4
+  },
+  {
+    "zone": "Shore Map(Shore Map)",
+    "level": 71,
+    "tier": 4
+  },
+  {
+    "zone": "Spider Forest Map(Spider Forest Map)",
+    "level": 71,
+    "tier": 4
+  },
+  {
+    "zone": "Promenade Map(Promenade Map)",
+    "level": 71,
+    "tier": 4
+  },
+  {
+    "zone": "Hall of Grandmasters",
+    "level": 71,
+    "tier": 4
+  },
+  {
+    "zone": "Underground Sea Map(Underground Sea Map)",
+    "level": 72,
+    "tier": 5
+  },
+  {
+    "zone": "Pier Map(Pier Map)",
+    "level": 72,
+    "tier": 5
+  },
+  {
+    "zone": "Bog Map(Bog Map)",
+    "level": 72,
+    "tier": 5
+  },
+  {
+    "zone": "Graveyard Map(Graveyard Map)",
+    "level": 72,
+    "tier": 5
+  },
+  {
+    "zone": "Coves Map(Coves Map)",
+    "level": 72,
+    "tier": 5
+  },
+  {
+    "zone": "Villa Map(Villa Map)",
+    "level": 72,
+    "tier": 5
+  },
+  {
+    "zone": "Temple Map(Temple Map)",
+    "level": 73,
+    "tier": 6
+  },
+  {
+    "zone": "Poorjoy's Asylum",
+    "level": 73,
+    "tier": 6
+  },
+  {
+    "zone": "Arachnid Nest Map(Arachnid Nest Map)",
+    "level": 73,
+    "tier": 6
+  },
+  {
+    "zone": "Strand Map(Strand Map)",
+    "level": 73,
+    "tier": 6
+  },
+  {
+    "zone": "Whakawairua Tuahu",
+    "level": 73,
+    "tier": 6
+  },
+  {
+    "zone": "Dry Woods Map(Dry Woods Map)",
+    "level": 73,
+    "tier": 6
+  },
+  {
+    "zone": "Colonnade Map(Colonnade Map)",
+    "level": 73,
+    "tier": 6
+  },
+  {
+    "zone": "Blackguard Salute",
+    "level": 73,
+    "tier": 6
+  },
+  {
+    "zone": "Catacomb Map(Catacomb Map)",
+    "level": 73,
+    "tier": 6
+  },
+  {
+    "zone": "Convent of the Twins' Flame",
+    "level": 73,
+    "tier": 6
+  },
+  {
+    "zone": "Torture Chamber Map(Torture Chamber Map)",
+    "level": 74,
+    "tier": 7
+  },
+  {
+    "zone": "Oba's Cursed Trove",
+    "level": 74,
+    "tier": 7
+  },
+  {
+    "zone": "Waste Pool Map(Waste Pool Map)",
+    "level": 74,
+    "tier": 7
+  },
+  {
+    "zone": "Mine Map(Mine Map)",
+    "level": 74,
+    "tier": 7
+  },
+  {
+    "zone": "Jungle Valley Map(Jungle Valley Map)",
+    "level": 74,
+    "tier": 7
+  },
+  {
+    "zone": "Labyrinth Map(Labyrinth Map)",
+    "level": 74,
+    "tier": 7
+  },
+  {
+    "zone": "Cells Map(Cells Map)",
+    "level": 75,
+    "tier": 8
+  },
+  {
+    "zone": "Canyon Map(Canyon Map)",
+    "level": 75,
+    "tier": 8
+  },
+  {
+    "zone": "Dark Forest Map(Dark Forest Map)",
+    "level": 75,
+    "tier": 8
+  },
+  {
+    "zone": "Dry Peninsula Map(Dry Peninsula Map)",
+    "level": 75,
+    "tier": 8
+  },
+  {
+    "zone": "Orchard Map(Orchard Map)",
+    "level": 75,
+    "tier": 8
+  },
+  {
+    "zone": "Underground River Map(Underground River Map)",
+    "level": 76,
+    "tier": 9
+  },
+  {
+    "zone": "Arid Lake Map(Arid Lake Map)",
+    "level": 76,
+    "tier": 9
+  },
+  {
+    "zone": "Gorge Map(Gorge Map)",
+    "level": 76,
+    "tier": 9
+  },
+  {
+    "zone": "Residence Map(Residence Map)",
+    "level": 76,
+    "tier": 9
+  },
+  {
+    "zone": "Necropolis Map(Necropolis Map)",
+    "level": 77,
+    "tier": 10,
+    "expLevel": 76.9
+  },
+  {
+    "zone": "Death and Taxes",
+    "level": 77,
+    "tier": 10,
+    "expLevel": 76.9
+  },
+  {
+    "zone": "Plateau Map(Plateau Map)",
+    "level": 77,
+    "tier": 10,
+    "expLevel": 76.9
+  },
+  {
+    "zone": "Bazaar Map(Bazaar Map)",
+    "level": 77,
+    "tier": 10,
+    "expLevel": 76.9
+  },
+  {
+    "zone": "Abyss Map(Abyss Map)",
+    "level": 77,
+    "tier": 10,
+    "expLevel": 76.9
+  },
+  {
+    "zone": "Crematorium Map(Crematorium Map)",
+    "level": 78,
+    "tier": 11,
+    "expLevel": 77.7
+  },
+  {
+    "zone": "Precinct Map(Precinct Map)",
+    "level": 78,
+    "tier": 11,
+    "expLevel": 77.7
+  },
+  {
+    "zone": "Academy Map(Academy Map)",
+    "level": 78,
+    "tier": 11,
+    "expLevel": 77.7
+  },
+  {
+    "zone": "Springs Map(Springs Map)",
+    "level": 78,
+    "tier": 11,
+    "expLevel": 77.7
+  },
+  {
+    "zone": "Shipyard Map(Shipyard Map)",
+    "level": 79,
+    "tier": 12,
+    "expLevel": 78.4
+  },
+  {
+    "zone": "Overgrown Ruin Map(Overgrown Ruin Map)",
+    "level": 79,
+    "tier": 12,
+    "expLevel": 78.4
+  },
+  {
+    "zone": "Village Ruin Map(Village Ruin Map)",
+    "level": 79,
+    "tier": 12,
+    "expLevel": 78.4
+  },
+  {
+    "zone": "Arsenal Map(Arsenal Map)",
+    "level": 79,
+    "tier": 12,
+    "expLevel": 78.4
+  },
+  {
+    "zone": "Wasteland Map(Wasteland Map)",
+    "level": 80,
+    "tier": 13,
+    "expLevel": 79
+  },
+  {
+    "zone": "Courtyard Map(Courtyard Map)",
+    "level": 80,
+    "tier": 13,
+    "expLevel": 79
+  },
+  {
+    "zone": "Excavation Map(Excavation Map)",
+    "level": 80,
+    "tier": 13,
+    "expLevel": 79
+  },
+  {
+    "zone": "Waterways Map(Waterways Map)",
+    "level": 80,
+    "tier": 13,
+    "expLevel": 79
+  },
+  {
+    "zone": "Palace Map(Palace Map)",
+    "level": 81,
+    "tier": 14,
+    "expLevel": 79.5
+  },
+  {
+    "zone": "Shrine Map(Shrine Map)",
+    "level": 81,
+    "tier": 14,
+    "expLevel": 79.5
+  },
+  {
+    "zone": "Wraeclast Pantheon",
+    "level": 81,
+    "tier": 14,
+    "expLevel": 79.5
+  },
+  {
+    "zone": "Maze Map(Maze Map)",
+    "level": 81,
+    "tier": 14,
+    "expLevel": 79.5
+  },
+  {
+    "zone": "Olmec's Sanctum",
+    "level": 81,
+    "tier": 14,
+    "expLevel": 79.5
+  },
+  {
+    "zone": "Vaal Temple Map(Vaal Temple Map)",
+    "level": 81,
+    "tier": 14,
+    "expLevel": 79.5
+  },
+  {
+    "zone": "Core Map(Core Map)",
+    "level": 82,
+    "tier": 15,
+    "expLevel": 79.9
+  },
+  {
+    "zone": "Volcano Map(Volcano Map)",
+    "level": 82,
+    "tier": 15,
+    "expLevel": 79.9
+  },
+  {
+    "zone": "Colosseum Map(Colosseum Map)",
+    "level": 82,
+    "tier": 15,
+    "expLevel": 79.9
+  },
+  {
+    "zone": "The Alluring Abyss(The Alluring Abyss)",
+    "level": 80,
+    "tier": 13,
+    "expLevel": 79
+  },
+  {
+    "zone": "The Apex of Sacrifice(The Apex of Sacrifice)",
+    "level": 70,
+    "tier": 3
+  }
+]

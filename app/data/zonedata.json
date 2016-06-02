@@ -1,0 +1,254 @@
+[
+  {
+    "zone": "Lioneye's Watch",
+    "levels": "13 / 44 / 59"
+  },
+  {
+    "zone": "The Twilight Strand",
+    "levels": "1 / 40 / 56"
+  },
+  {
+    "zone": "The Coast",
+    "levels": "2 / 40 / 56"
+  },
+  {
+    "zone": "The Tidal Island",
+    "levels": "3 / 42 / 57"
+  },
+  {
+    "zone": "The Mud Flats",
+    "levels": "4 / 41 / 56"
+  },
+  {
+    "zone": "The Fetid Pool",
+    "levels": "5 / 43 / 57"
+  },
+  {
+    "zone": "The Flooded Depths",
+    "levels": "6 / 41 / 57"
+  },
+  {
+    "zone": "The Submerged Passage",
+    "levels": "5 / 41 / 56"
+  },
+  {
+    "zone": "The Ledge",
+    "levels": "6 / 42 / 56"
+  },
+  {
+    "zone": "The Climb",
+    "levels": "7 / 42 / 56"
+  },
+  {
+    "zone": "The Lower Prison\nThe Upper Prison",
+    "levels": "8 / 42 / 56\n9 / 43 / 57"
+  },
+  {
+    "zone": "Prisoner's Gate",
+    "levels": "10 / 43 / 57"
+  },
+  {
+    "zone": "The Ship Graveyard",
+    "levels": "11 / 43 / 57"
+  },
+  {
+    "zone": "The Ship Graveyard Cave",
+    "levels": "12 / 45 / 58"
+  },
+  {
+    "zone": "The Cavern of Wrath\nThe Cavern of Anger",
+    "levels": "12 / 43 / 58\n13 / 44 / 59"
+  },
+  {
+    "zone": "The Forest Encampment",
+    "levels": "23 / 48 / 62"
+  },
+  {
+    "zone": "The Southern Forest",
+    "levels": "13 / 44 / 59"
+  },
+  {
+    "zone": "The Old Fields",
+    "levels": "14 / 45 / 60"
+  },
+  {
+    "zone": "The Den",
+    "levels": "15 / 46 / 60"
+  },
+  {
+    "zone": "The Crossroads",
+    "levels": "15 / 46 / 60"
+  },
+  {
+    "zone": "The Crypt Level 1\nThe Crypt Level 2",
+    "levels": "17 / 46 / 60\n18 / 46 / 61"
+  },
+  {
+    "zone": "The Chamber of Sins Level 1\nThe Chamber of Sins Level 2",
+    "levels": "15 / 46 / 60\n16 / 46 / 61"
+  },
+  {
+    "zone": "The Broken Bridge",
+    "levels": "16 / 46 / 61"
+  },
+  {
+    "zone": "The Riverways",
+    "levels": "15 / 45 / 60"
+  },
+  {
+    "zone": "The Northern Forest",
+    "levels": "21 / 47 / 61"
+  },
+  {
+    "zone": "The Western Forest",
+    "levels": "17 / 46 / 61"
+  },
+  {
+    "zone": "The Weaver's Chambers",
+    "levels": "18 / 46 / 61"
+  },
+  {
+    "zone": "The Vaal Ruins",
+    "levels": "20 / 47 / 61"
+  },
+  {
+    "zone": "The Wetlands",
+    "levels": "19 / 46 / 61"
+  },
+  {
+    "zone": "The Dread Thicket",
+    "levels": "21 / 48 / 63"
+  },
+  {
+    "zone": "The Caverns\nThe Ancient Pyramid",
+    "levels": "22 / 47 / 62\n23 / 48 / 63"
+  },
+  {
+    "zone": "The Fellshrine Ruins",
+    "levels": "16 / 46 / 60"
+  },
+  {
+    "zone": "The Eternal Laboratory",
+    "levels": "68 / 68 / 68"
+  },
+  {
+    "zone": "The Sarn Encampment",
+    "levels": "33 / 54 / 62"
+  },
+  {
+    "zone": "The City of Sarn",
+    "levels": "23 / 48 / 63"
+  },
+  {
+    "zone": "The Slums\nThe Slums Sewers",
+    "levels": "24 / 49 / 63\n25 / 49 / 63"
+  },
+  {
+    "zone": "The Crematorium",
+    "levels": "25 / 49 / 63"
+  },
+  {
+    "zone": "The Warehouse District\nThe Warehouse Sewers",
+    "levels": "26 / 49 / 63\n26 / 49 / 63"
+  },
+  {
+    "zone": "The Marketplace\nThe Market Sewers",
+    "levels": "26 / 49 / 63\n27 / 50 / 65"
+  },
+  {
+    "zone": "The Catacombs",
+    "levels": "27 / 52 / 67"
+  },
+  {
+    "zone": "The Battlefront",
+    "levels": "27 / 50 / 64"
+  },
+  {
+    "zone": "The Solaris Temple Level 1",
+    "levels": "27 / 50 / 64"
+  },
+  {
+    "zone": "The Solaris Temple Level 2",
+    "levels": "28 / 51 / 64"
+  },
+  {
+    "zone": "The Docks",
+    "levels": "29 / 51 / 64"
+  },
+  {
+    "zone": "The Ebony Barracks",
+    "levels": "29 / 51 / 64"
+  },
+  {
+    "zone": "The Lunaris Temple Level 1",
+    "levels": "29 / 51 / 64"
+  },
+  {
+    "zone": "The Lunaris Temple Level 2",
+    "levels": "30 / 52 / 65"
+  },
+  {
+    "zone": "The Library\nThe Archives",
+    "levels": "30 / 53 / 66\n31 / 53 / 66"
+  },
+  {
+    "zone": "The Sceptre of God\nThe Upper Sceptre of God",
+    "levels": "32 / 53 / 66\n33 / 54 / 67"
+  },
+  {
+    "zone": "The Slums Sewers",
+    "levels": "25 / 49 / 63"
+  },
+  {
+    "zone": "The Warehouse Sewers",
+    "levels": "26 / 49 / 63"
+  },
+  {
+    "zone": "The Market Sewers",
+    "levels": "27 / 50 / 65"
+  },
+  {
+    "zone": "Highgate",
+    "levels": "40 / 57 / 62"
+  },
+  {
+    "zone": "The Aqueduct",
+    "levels": "33 / 54 / 67"
+  },
+  {
+    "zone": "The Dried Lake",
+    "levels": "34 / 55 / 67"
+  },
+  {
+    "zone": "The Mines Level 1\nThe Mines Level 2",
+    "levels": "34 / 55 / 67\n35 / 55 / 67"
+  },
+  {
+    "zone": "The Crystal Veins",
+    "levels": "35 / 55 / 68"
+  },
+  {
+    "zone": "Kaom's Dream\nKaom's Path",
+    "levels": "36 / 55 / 68\n37 / 55 / 68"
+  },
+  {
+    "zone": "Kaom's Stronghold",
+    "levels": "38 / 56 / 69"
+  },
+  {
+    "zone": "Daresso's Dream",
+    "levels": "37 / 55 / 68"
+  },
+  {
+    "zone": "The Grand Arena",
+    "levels": "38 / 56 / 69"
+  },
+  {
+    "zone": "The Belly of the Beast Level 1\nThe Belly of the Beast Level 2",
+    "levels": "38 / 56 / 69\n39 / 56 / 69"
+  },
+  {
+    "zone": "The Harvest",
+    "levels": "40 / 57 / 70"
+  }
+]
