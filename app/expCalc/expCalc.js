@@ -27,11 +27,10 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
         $scope.fullExpMaxLevel = function () {
             return $scope.player.playerLevel + $scope.monsterLevelBoundary;
         };
-        var specialMap = {
-            startLevel: 77,
-            endLevel: 82,
-            77: 76.9, 78: 77.7, 79: 78.4, 80: 79, 81: 79.5, 82: 79.9
-        };
+        var specialMap = {};
+        $http.get('data/leveldata.json').success(function (response) {
+            specialMap = response;
+        });
         var startMap = 68;
         var endMap = 82;
         var calculateExpPenalty = function (playerLevel, zoneLevel) {
