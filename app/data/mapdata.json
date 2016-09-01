@@ -1,494 +1,718 @@
 [
   {
-    "zone": "Crypt Map(Crypt Map)",
-    "level": 68,
+    "zone": "Arcade Map",
     "tier": 1
   },
   {
-    "zone": "The Coward's Trial",
-    "level": 68,
+    "zone": "Crystal Ore Map",
     "tier": 1
   },
   {
-    "zone": "Dungeon Map(Dungeon Map)",
-    "level": 68,
+    "zone": "Desert Map",
     "tier": 1
   },
   {
-    "zone": "Grotto Map(Grotto Map)",
-    "level": 68,
+    "zone": "Jungle Valley Map",
     "tier": 1
   },
   {
-    "zone": "Dunes Map(Dunes Map)",
-    "level": 68,
-    "tier": 1
-  },
-  {
-    "zone": "Pit Map(Pit Map)",
-    "level": 68,
-    "tier": 1
-  },
-  {
-    "zone": "Tropical Island Map(Tropical Island Map)",
-    "level": 68,
-    "tier": 1
-  },
-  {
-    "zone": "Untainted Paradise",
-    "level": 68,
-    "tier": 1
-  },
-  {
-    "zone": "Desert Map(Desert Map)",
-    "level": 68,
-    "tier": 1
-  },
-  {
-    "zone": "Sewer Map(Sewer Map)",
-    "level": 69,
+    "zone": "Beach Map",
     "tier": 2
   },
   {
-    "zone": "Aqueduct Map(Aqueduct Map)",
-    "level": 69,
+    "zone": "Factory Map",
     "tier": 2
   },
   {
-    "zone": "Thicket Map(Thicket Map)",
-    "level": 69,
+    "zone": "Ghetto Map",
     "tier": 2
   },
   {
-    "zone": "Mountain Ledge Map(Mountain Ledge Map)",
-    "level": 69,
+    "zone": "Oasis Map",
     "tier": 2
   },
   {
-    "zone": "Maelström of Chaos",
-    "level": 69,
-    "tier": 2
-  },
-  {
-    "zone": "Cemetery Map(Cemetery Map)",
-    "level": 69,
-    "tier": 2
-  },
-  {
-    "zone": "Arcade Map(Arcade Map)",
-    "level": 69,
-    "tier": 2
-  },
-  {
-    "zone": "Wharf Map(Wharf Map)",
-    "level": 69,
-    "tier": 2
-  },
-  {
-    "zone": "Ghetto Map(Ghetto Map)",
-    "level": 70,
+    "zone": "Arid Lake Map",
     "tier": 3
   },
   {
-    "zone": "Spider Lair Map(Spider Lair Map)",
-    "level": 70,
+    "zone": "Cavern Map",
     "tier": 3
   },
   {
-    "zone": "Vaal Pyramid Map(Vaal Pyramid Map)",
-    "level": 70,
+    "zone": "Channel Map",
     "tier": 3
   },
   {
-    "zone": "Vaults of Atziri",
-    "level": 70,
+    "zone": "Grotto Map",
     "tier": 3
   },
   {
-    "zone": "Reef Map(Reef Map)",
-    "level": 70,
+    "zone": "Marshes Map",
     "tier": 3
   },
   {
-    "zone": "Mao Kun",
-    "level": 70,
+    "zone": "Sewer Map",
     "tier": 3
   },
   {
-    "zone": "Quarry Map(Quarry Map)",
-    "level": 70,
+    "zone": "Vaal Pyramid Map",
     "tier": 3
   },
   {
-    "zone": "Mud Geyser Map(Mud Geyser Map)",
-    "level": 70,
-    "tier": 3
-  },
-  {
-    "zone": "Museum Map(Museum Map)",
-    "level": 70,
-    "tier": 3
-  },
-  {
-    "zone": "Arena Map(Arena Map)",
-    "level": 71,
+    "zone": "Academy Map",
     "tier": 4
   },
   {
-    "zone": "Overgrown Shrine Map(Overgrown Shrine Map)",
-    "level": 71,
+    "zone": "Acid Lakes Map",
     "tier": 4
   },
   {
-    "zone": "Acton's Nightmare",
-    "level": 71,
+    "zone": "Dungeon Map",
     "tier": 4
   },
   {
-    "zone": "Tunnel Map(Tunnel Map)",
-    "level": 71,
+    "zone": "Graveyard Map",
     "tier": 4
   },
   {
-    "zone": "Shore Map(Shore Map)",
-    "level": 71,
+    "zone": "Phantasmagoria Map",
     "tier": 4
   },
   {
-    "zone": "Spider Forest Map(Spider Forest Map)",
-    "level": 71,
+    "zone": "Villa Map",
     "tier": 4
   },
   {
-    "zone": "Promenade Map(Promenade Map)",
-    "level": 71,
+    "zone": "Waste Pool Map",
     "tier": 4
   },
   {
-    "zone": "Hall of Grandmasters",
-    "level": 71,
-    "tier": 4
-  },
-  {
-    "zone": "Underground Sea Map(Underground Sea Map)",
-    "level": 72,
+    "zone": "Burial Chambers Map",
     "tier": 5
   },
   {
-    "zone": "Pier Map(Pier Map)",
-    "level": 72,
+    "zone": "Peninsula Map",
     "tier": 5
   },
   {
-    "zone": "Bog Map(Bog Map)",
-    "level": 72,
+    "zone": "Dunes Map",
     "tier": 5
   },
   {
-    "zone": "Graveyard Map(Graveyard Map)",
-    "level": 72,
+    "zone": "Mesa Map",
     "tier": 5
   },
   {
-    "zone": "Coves Map(Coves Map)",
-    "level": 72,
+    "zone": "Pit Map",
     "tier": 5
   },
   {
-    "zone": "Villa Map(Villa Map)",
-    "level": 72,
+    "zone": "Primordial Pool Map",
     "tier": 5
   },
   {
-    "zone": "Temple Map(Temple Map)",
-    "level": 73,
+    "zone": "Spider Lair Map",
+    "tier": 5
+  },
+  {
+    "zone": "Tower Map",
+    "tier": 5
+  },
+  {
+    "zone": "Shaped Arcade Map",
     "tier": 6
   },
   {
-    "zone": "Poorjoy's Asylum",
-    "level": 73,
+    "zone": "Shaped Crystal Ore Map",
     "tier": 6
   },
   {
-    "zone": "Arachnid Nest Map(Arachnid Nest Map)",
-    "level": 73,
+    "zone": "Shaped Desert Map",
     "tier": 6
   },
   {
-    "zone": "Strand Map(Strand Map)",
-    "level": 73,
+    "zone": "Shaped Jungle Valley Map",
     "tier": 6
   },
   {
-    "zone": "Whakawairua Tuahu",
-    "level": 73,
+    "zone": "Canyon Map",
     "tier": 6
   },
   {
-    "zone": "Dry Woods Map(Dry Woods Map)",
-    "level": 73,
+    "zone": "Quarry Map",
     "tier": 6
   },
   {
-    "zone": "Colonnade Map(Colonnade Map)",
-    "level": 73,
+    "zone": "Racecourse Map",
     "tier": 6
   },
   {
-    "zone": "Blackguard Salute",
-    "level": 73,
+    "zone": "Ramparts Map",
     "tier": 6
   },
   {
-    "zone": "Catacomb Map(Catacomb Map)",
-    "level": 73,
+    "zone": "Spider Forest Map",
     "tier": 6
   },
   {
-    "zone": "Convent of the Twins' Flame",
-    "level": 73,
+    "zone": "Strand Map",
     "tier": 6
   },
   {
-    "zone": "Torture Chamber Map(Torture Chamber Map)",
-    "level": 74,
+    "zone": "Thicket Map",
+    "tier": 6
+  },
+  {
+    "zone": "Vaal City Map",
+    "tier": 6
+  },
+  {
+    "zone": "Wharf Map",
+    "tier": 6
+  },
+  {
+    "zone": "Shaped Beach Map",
     "tier": 7
   },
   {
-    "zone": "Oba's Cursed Trove",
-    "level": 74,
+    "zone": "Shaped Factory Map",
     "tier": 7
   },
   {
-    "zone": "Waste Pool Map(Waste Pool Map)",
-    "level": 74,
+    "zone": "Shaped Ghetto Map",
     "tier": 7
   },
   {
-    "zone": "Mine Map(Mine Map)",
-    "level": 74,
+    "zone": "Shaped Oasis Map",
     "tier": 7
   },
   {
-    "zone": "Jungle Valley Map(Jungle Valley Map)",
-    "level": 74,
+    "zone": "Arachnid Tomb Map",
     "tier": 7
   },
   {
-    "zone": "Labyrinth Map(Labyrinth Map)",
-    "level": 74,
+    "zone": "Castle Ruins Map",
     "tier": 7
   },
   {
-    "zone": "Cells Map(Cells Map)",
-    "level": 75,
+    "zone": "Catacombs Map",
+    "tier": 7
+  },
+  {
+    "zone": "Cells Map",
+    "tier": 7
+  },
+  {
+    "zone": "Armory Map",
+    "tier": 7
+  },
+  {
+    "zone": "Ashen Wood Map",
+    "tier": 7
+  },
+  {
+    "zone": "Mud Geyser Map",
+    "tier": 7
+  },
+  {
+    "zone": "Shaped Arid Lake Map",
     "tier": 8
   },
   {
-    "zone": "Canyon Map(Canyon Map)",
-    "level": 75,
+    "zone": "Shaped Cavern Map",
     "tier": 8
   },
   {
-    "zone": "Dark Forest Map(Dark Forest Map)",
-    "level": 75,
+    "zone": "Shaped Channel Map",
     "tier": 8
   },
   {
-    "zone": "Dry Peninsula Map(Dry Peninsula Map)",
-    "level": 75,
+    "zone": "Shaped Grotto Map",
     "tier": 8
   },
   {
-    "zone": "Orchard Map(Orchard Map)",
-    "level": 75,
+    "zone": "Shaped Marshes Map",
     "tier": 8
   },
   {
-    "zone": "Underground River Map(Underground River Map)",
-    "level": 76,
+    "zone": "Shaped Sewer Map",
+    "tier": 8
+  },
+  {
+    "zone": "Shaped Vaal Pyramid Map",
+    "tier": 8
+  },
+  {
+    "zone": "Arachnid Nest Map",
+    "tier": 8
+  },
+  {
+    "zone": "Arena Map",
+    "tier": 8
+  },
+  {
+    "zone": "Bog Map",
+    "tier": 8
+  },
+  {
+    "zone": "Cemetery Map",
+    "tier": 8
+  },
+  {
+    "zone": "Barrows Map",
+    "tier": 8
+  },
+  {
+    "zone": "Atoll Map",
+    "tier": 8
+  },
+  {
+    "zone": "Pier Map",
+    "tier": 8
+  },
+  {
+    "zone": "Shore Map",
+    "tier": 8
+  },
+  {
+    "zone": "Tropical Island Map",
+    "tier": 8
+  },
+  {
+    "zone": "Shaped Academy Map",
     "tier": 9
   },
   {
-    "zone": "Arid Lake Map(Arid Lake Map)",
-    "level": 76,
+    "zone": "Shaped Acid Lakes Map",
     "tier": 9
   },
   {
-    "zone": "Gorge Map(Gorge Map)",
-    "level": 76,
+    "zone": "Shaped Dungeon Map",
     "tier": 9
   },
   {
-    "zone": "Residence Map(Residence Map)",
-    "level": 76,
+    "zone": "Shaped Graveyard Map",
     "tier": 9
   },
   {
-    "zone": "Necropolis Map(Necropolis Map)",
-    "level": 77,
-    "tier": 10,
-    "expLevel": 76.9
+    "zone": "Shaped Phantasmagoria Map",
+    "tier": 9
   },
   {
-    "zone": "Death and Taxes",
-    "level": 77,
-    "tier": 10,
-    "expLevel": 76.9
+    "zone": "Shaped Villa Map",
+    "tier": 9
   },
   {
-    "zone": "Plateau Map(Plateau Map)",
-    "level": 77,
-    "tier": 10,
-    "expLevel": 76.9
+    "zone": "Shaped Waste Pool Map",
+    "tier": 9
   },
   {
-    "zone": "Bazaar Map(Bazaar Map)",
-    "level": 77,
-    "tier": 10,
-    "expLevel": 76.9
+    "zone": "Coves Map",
+    "tier": 9
   },
   {
-    "zone": "Abyss Map(Abyss Map)",
-    "level": 77,
-    "tier": 10,
-    "expLevel": 76.9
+    "zone": "Crypt Map",
+    "tier": 9
   },
   {
-    "zone": "Crematorium Map(Crematorium Map)",
-    "level": 78,
-    "tier": 11,
-    "expLevel": 77.7
+    "zone": "Museum Map",
+    "tier": 9
   },
   {
-    "zone": "Precinct Map(Precinct Map)",
-    "level": 78,
-    "tier": 11,
-    "expLevel": 77.7
+    "zone": "Orchard Map",
+    "tier": 9
   },
   {
-    "zone": "Academy Map(Academy Map)",
-    "level": 78,
-    "tier": 11,
-    "expLevel": 77.7
+    "zone": "Overgrown Shrine Map",
+    "tier": 9
   },
   {
-    "zone": "Springs Map(Springs Map)",
-    "level": 78,
-    "tier": 11,
-    "expLevel": 77.7
+    "zone": "Promenade Map",
+    "tier": 9
   },
   {
-    "zone": "Shipyard Map(Shipyard Map)",
-    "level": 79,
-    "tier": 12,
-    "expLevel": 78.4
+    "zone": "Reef Map",
+    "tier": 9
   },
   {
-    "zone": "Overgrown Ruin Map(Overgrown Ruin Map)",
-    "level": 79,
-    "tier": 12,
-    "expLevel": 78.4
+    "zone": "Temple Map",
+    "tier": 9
   },
   {
-    "zone": "Village Ruin Map(Village Ruin Map)",
-    "level": 79,
-    "tier": 12,
-    "expLevel": 78.4
+    "zone": "Shaped Burial Chambers Map",
+    "tier": 10
   },
   {
-    "zone": "Arsenal Map(Arsenal Map)",
-    "level": 79,
-    "tier": 12,
-    "expLevel": 78.4
+    "zone": "Shaped Peninsula Map",
+    "tier": 10
   },
   {
-    "zone": "Wasteland Map(Wasteland Map)",
-    "level": 80,
-    "tier": 13,
-    "expLevel": 79
+    "zone": "Shaped Dunes Map",
+    "tier": 10
   },
   {
-    "zone": "Courtyard Map(Courtyard Map)",
-    "level": 80,
-    "tier": 13,
-    "expLevel": 79
+    "zone": "Shaped Mesa Map",
+    "tier": 10
   },
   {
-    "zone": "Excavation Map(Excavation Map)",
-    "level": 80,
-    "tier": 13,
-    "expLevel": 79
+    "zone": "Shaped Pit Map",
+    "tier": 10
   },
   {
-    "zone": "Waterways Map(Waterways Map)",
-    "level": 80,
-    "tier": 13,
-    "expLevel": 79
+    "zone": "Shaped Primordial Pool Map",
+    "tier": 10
   },
   {
-    "zone": "Palace Map(Palace Map)",
-    "level": 81,
-    "tier": 14,
-    "expLevel": 79.5
+    "zone": "Shaped Spider Lair Map",
+    "tier": 10
   },
   {
-    "zone": "Shrine Map(Shrine Map)",
-    "level": 81,
-    "tier": 14,
-    "expLevel": 79.5
+    "zone": "Shaped Tower Map",
+    "tier": 10
   },
   {
-    "zone": "Wraeclast Pantheon",
-    "level": 81,
-    "tier": 14,
-    "expLevel": 79.5
+    "zone": "Colonnade Map",
+    "tier": 10
   },
   {
-    "zone": "Maze Map(Maze Map)",
-    "level": 81,
-    "tier": 14,
-    "expLevel": 79.5
+    "zone": "Arsenal Map",
+    "tier": 10
   },
   {
-    "zone": "Olmec's Sanctum",
-    "level": 81,
-    "tier": 14,
-    "expLevel": 79.5
+    "zone": "Courtyard Map",
+    "tier": 10
   },
   {
-    "zone": "Vaal Temple Map(Vaal Temple Map)",
-    "level": 81,
-    "tier": 14,
-    "expLevel": 79.5
+    "zone": "Malformation Map",
+    "tier": 10
   },
   {
-    "zone": "Core Map(Core Map)",
-    "level": 82,
-    "tier": 15,
-    "expLevel": 79.9
+    "zone": "Quay Map",
+    "tier": 10
   },
   {
-    "zone": "Volcano Map(Volcano Map)",
-    "level": 82,
-    "tier": 15,
-    "expLevel": 79.9
+    "zone": "Terrace Map",
+    "tier": 10
   },
   {
-    "zone": "Colosseum Map(Colosseum Map)",
-    "level": 82,
-    "tier": 15,
-    "expLevel": 79.9
+    "zone": "Underground River Map",
+    "tier": 10
   },
   {
-    "zone": "The Alluring Abyss(The Alluring Abyss)",
-    "level": 80,
-    "tier": 13,
-    "expLevel": 79
+    "zone": "Shaped Canyon Map",
+    "tier": 11
   },
   {
-    "zone": "The Apex of Sacrifice(The Apex of Sacrifice)",
-    "level": 70,
-    "tier": 3
+    "zone": "Shaped Quarry Map",
+    "tier": 11
+  },
+  {
+    "zone": "Shaped Racecourse Map",
+    "tier": 11
+  },
+  {
+    "zone": "Shaped Ramparts Map",
+    "tier": 11
+  },
+  {
+    "zone": "Shaped Spider Forest Map",
+    "tier": 11
+  },
+  {
+    "zone": "Shaped Strand Map",
+    "tier": 11
+  },
+  {
+    "zone": "Shaped Thicket Map",
+    "tier": 11
+  },
+  {
+    "zone": "Shaped Vaal City Map",
+    "tier": 11
+  },
+  {
+    "zone": "Shaped Wharf Map",
+    "tier": 11
+  },
+  {
+    "zone": "Bazaar Map",
+    "tier": 11
+  },
+  {
+    "zone": "Chateau Map",
+    "tier": 11
+  },
+  {
+    "zone": "Excavation Map",
+    "tier": 11
+  },
+  {
+    "zone": "Precinct Map",
+    "tier": 11
+  },
+  {
+    "zone": "Torture Chamber Map",
+    "tier": 11
+  },
+  {
+    "zone": "Underground Sea Map",
+    "tier": 11
+  },
+  {
+    "zone": "Wasteland Map",
+    "tier": 11
+  },
+  {
+    "zone": "Shaped Arachnid Tomb Map",
+    "tier": 12
+  },
+  {
+    "zone": "Shaped Castle Ruins Map",
+    "tier": 12
+  },
+  {
+    "zone": "Shaped Catacombs Map",
+    "tier": 12
+  },
+  {
+    "zone": "Shaped Cells Map",
+    "tier": 12
+  },
+  {
+    "zone": "Shaped Armory Map",
+    "tier": 12
+  },
+  {
+    "zone": "Shaped Ashen Wood Map",
+    "tier": 12
+  },
+  {
+    "zone": "Shaped Mud Geyser Map",
+    "tier": 12
+  },
+  {
+    "zone": "Crematorium Map",
+    "tier": 12
+  },
+  {
+    "zone": "Estuary Map",
+    "tier": 12
+  },
+  {
+    "zone": "Necropolis Map",
+    "tier": 12
+  },
+  {
+    "zone": "Plateau Map",
+    "tier": 12
+  },
+  {
+    "zone": "Ivory Temple Map",
+    "tier": 12
+  },
+  {
+    "zone": "Residence Map",
+    "tier": 12
+  },
+  {
+    "zone": "Shipyard Map",
+    "tier": 12
+  },
+  {
+    "zone": "Vault Map",
+    "tier": 12
+  },
+  {
+    "zone": "Shaped Arachnid Nest Map",
+    "tier": 13
+  },
+  {
+    "zone": "Shaped Arena Map",
+    "tier": 13
+  },
+  {
+    "zone": "Shaped Bog Map",
+    "tier": 13
+  },
+  {
+    "zone": "Shaped Cemetery Map",
+    "tier": 13
+  },
+  {
+    "zone": "Shaped Barrows Map",
+    "tier": 13
+  },
+  {
+    "zone": "Shaped Atoll Map",
+    "tier": 13
+  },
+  {
+    "zone": "Shaped Pier Map",
+    "tier": 13
+  },
+  {
+    "zone": "Shaped Shore Map",
+    "tier": 13
+  },
+  {
+    "zone": "Shaped Tropical Island Map",
+    "tier": 13
+  },
+  {
+    "zone": "Lair Map",
+    "tier": 13
+  },
+  {
+    "zone": "Beacon Map",
+    "tier": 13
+  },
+  {
+    "zone": "Gorge Map",
+    "tier": 13
+  },
+  {
+    "zone": "High Gardens Map",
+    "tier": 13
+  },
+  {
+    "zone": "Plaza Map",
+    "tier": 13
+  },
+  {
+    "zone": "Scriptorium Map",
+    "tier": 13
+  },
+  {
+    "zone": "Sulphur Wastes Map",
+    "tier": 13
+  },
+  {
+    "zone": "Waterways Map",
+    "tier": 13
+  },
+  {
+    "zone": "Shaped Coves Map",
+    "tier": 14
+  },
+  {
+    "zone": "Shaped Crypt Map",
+    "tier": 14
+  },
+  {
+    "zone": "Shaped Museum Map",
+    "tier": 14
+  },
+  {
+    "zone": "Shaped Orchard Map",
+    "tier": 14
+  },
+  {
+    "zone": "Shaped Overgrown Shrine Map",
+    "tier": 14
+  },
+  {
+    "zone": "Shaped Promenade Map",
+    "tier": 14
+  },
+  {
+    "zone": "Shaped Reef Map",
+    "tier": 14
+  },
+  {
+    "zone": "Shaped Temple Map",
+    "tier": 14
+  },
+  {
+    "zone": "Maze Map",
+    "tier": 14
+  },
+  {
+    "zone": "Mineral Pools Map",
+    "tier": 14
+  },
+  {
+    "zone": "Palace Map",
+    "tier": 14
+  },
+  {
+    "zone": "Shrine Map",
+    "tier": 14
+  },
+  {
+    "zone": "Springs Map",
+    "tier": 14
+  },
+  {
+    "zone": "Volcano Map",
+    "tier": 14
+  },
+  {
+    "zone": "Shaped Colonnade Map",
+    "tier": 15
+  },
+  {
+    "zone": "Shaped Arsenal Map",
+    "tier": 15
+  },
+  {
+    "zone": "Shaped Courtyard Map",
+    "tier": 15
+  },
+  {
+    "zone": "Shaped Malformation Map",
+    "tier": 15
+  },
+  {
+    "zone": "Shaped Quay Map",
+    "tier": 15
+  },
+  {
+    "zone": "Shaped Terrace Map",
+    "tier": 15
+  },
+  {
+    "zone": "Shaped Underground River Map",
+    "tier": 15
+  },
+  {
+    "zone": "Abyss Map",
+    "tier": 15
+  },
+  {
+    "zone": "Colosseum Map",
+    "tier": 15
+  },
+  {
+    "zone": "Core Map",
+    "tier": 15
+  },
+  {
+    "zone": "Dark Forest Map",
+    "tier": 15
+  },
+  {
+    "zone": "Overgrown Ruin Map",
+    "tier": 15
+  },
+  {
+    "zone": "Pit of the Chimera Map",
+    "tier": 16
+  },
+  {
+    "zone": "Lair of the Hydra Map",
+    "tier": 16
+  },
+  {
+    "zone": "Maze of the Minotaur Map",
+    "tier": 16
+  },
+  {
+    "zone": "Forge of the Phoenix Map",
+    "tier": 16
+  },
+  {
+    "zone": "Vaal Temple Map",
+    "tier": 16
   }
 ]

@@ -32,13 +32,15 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
             specialMap = response;
         });
         var startMap = 68;
-        var endMap = 82;
+        var endMap = 83;
         var calculateExpPenalty = function (playerLevel, zoneLevel) {
             if (zoneLevel >= specialMap.startLevel) {
                 zoneLevel = specialMap[zoneLevel];
-                console.log(zoneLevel);
             }
             var result = Math.pow((5 + playerLevel) / (5 + playerLevel + Math.pow(calcPlayerLevelToEffectiveLevel(playerLevel, zoneLevel), 2.5)), 1.5) * 100;
+            if (playerLevel >= 95) {
+                result -= (1 / (1 + 0.1 * (playerLevel - 94)));
+            }
             result = result.toFixed(2);
             if (result < 1) {
                 result = 1;
@@ -154,7 +156,7 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
             for (var idx = 0; idx < mapLevels.length; idx++) {
                 result.push({
                     zone: mapLevels[idx].zone.split('(')[0],
-                    map: mapLevels[idx].level
+                    map: mapLevels[idx].tier + 67
                 })
             }
             return result;
