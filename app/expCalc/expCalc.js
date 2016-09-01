@@ -39,7 +39,10 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
             }
             var result = Math.pow((5 + playerLevel) / (5 + playerLevel + Math.pow(calcPlayerLevelToEffectiveLevel(playerLevel, zoneLevel), 2.5)), 1.5) * 100;
             if (playerLevel >= 95) {
-                result -= (1 / (1 + 0.1 * (playerLevel - 94)));
+                console.log('result before', result, 'playerlevel', playerLevel);
+                var multiplier = ( 1 / (1 + 0.1 * (playerLevel - 94)));
+                result *= multiplier;
+                console.log('result after', result, 'playerlevel', playerLevel, 'mulit', multiplier);
             }
             result = result.toFixed(2);
             if (result < 1) {
