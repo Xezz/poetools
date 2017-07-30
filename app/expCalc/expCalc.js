@@ -137,14 +137,8 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
                 if (zoneLevel === $scope.zoneData[idx].map) {
                     tempResult += "<li>" + ($scope.zoneData[idx].zone) + "</li>";
                 }
-                if (zoneLevel === $scope.zoneData[idx].merciless) {
-                    tempResult += "<li>" + ($scope.zoneData[idx].zone + " (M)") + "</li>";
-                }
-                else if (zoneLevel === $scope.zoneData[idx].cruel) {
-                    tempResult += "<li>" + ($scope.zoneData[idx].zone + " (C)") + "</li>";
-                }
-                else if (zoneLevel === $scope.zoneData[idx].normal) {
-                    tempResult += "<li>" + ($scope.zoneData[idx].zone + " (N)") + "</li>";
+                if (zoneLevel === $scope.zoneData[idx].level) {
+                    tempResult += "<li>" + ($scope.zoneData[idx].zone) + "</li>";
                 }
             }
 
@@ -175,18 +169,12 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
             var result = [];
             for (var idx = 0; idx < zoneToLevel.length; idx++) {
                 var data = zoneToLevel[idx];
-                var baseName = data.zone.split('\n');
-                var baseLevelData = data.levels.split('\n');
-                for (var subIdx = 0; subIdx < baseLevelData.length && subIdx < baseName.length; subIdx++) {
-                    var subName = baseName[subIdx];
-                    var subData = baseLevelData[subIdx].split('/');
-                    result.push({
-                        zone: subName,
-                        normal: parseInt(subData[0].trim(), 10),
-                        cruel: parseInt(subData[1].trim(), 10),
-                        merciless: parseInt(subData[2].trim(), 10)
-                    })
-                }
+                result.push({
+                        zone: data.zone,
+                        level: parseInt(data.levels[0].trim(), 10)
+                        /*cruel: parseInt(subData[1].trim(), 10),
+                        merciless: parseInt(subData[2].trim(), 10)*/
+                });
             }
             return result.concat(parseMapData());
         }
