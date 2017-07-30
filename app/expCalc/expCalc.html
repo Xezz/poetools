@@ -8,12 +8,14 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>Zonelevel</th>
+                    <th>Zone Level</th>
+                    <th>Effective Monsterlevel</th>
                     <th>Gained Experience</th>
                 </tr>
                 </thead>
                 <tr ng-repeat="value in levelTableData" tooltip-html-unsafe="{{showTooltip(value.level)}}">
                     <td>{{value.level}} {{value.mapTier}}</td>
+                    <td>{{ specialMap[value.level] || value.level}}</td>
                     <td>{{value.expPercentage}} %</td>
                 </tr>
             </table>
