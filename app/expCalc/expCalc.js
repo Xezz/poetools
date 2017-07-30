@@ -171,7 +171,7 @@ angular.module('myApp.expCalc', ['ngRoute', 'ui.bootstrap'])
                 var data = zoneToLevel[idx];
                 result.push({
                         zone: data.zone,
-                        level: parseInt(data.levels.trim(), 10)
+                        level: data.levels
                         /*cruel: parseInt(subData[1].trim(), 10),
                         merciless: parseInt(subData[2].trim(), 10)*/
                 });
